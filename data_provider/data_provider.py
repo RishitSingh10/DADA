@@ -11,6 +11,7 @@ def data_provider(root_path, datasets, batch_size, win_size=100, step=100, flag=
     if flag == "train": shuffle = True
     else: shuffle = False
     print(f"loading {datasets}({flag}) percentage: {percentage*100}% ...", end="")
+    print(root_path)
     file_paths, train_lens = read_meta(root_path=root_path, dataset=datasets)
     discrete_channels = None
     if datasets == "MSL": discrete_channels = range(1, 55)

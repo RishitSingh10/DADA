@@ -8,3 +8,4 @@ sh ./scripts/NIPS_CICIDS/DADA.sh
 sh ./scripts/NIPS_Creditcard/DADA.sh
 sh ./scripts/NIPS_GECCO/DADA.sh
 sh ./scripts/NIPS_SWAN/DADA.sh
+sh ./scripts/CUSTOM/DADA.sh
